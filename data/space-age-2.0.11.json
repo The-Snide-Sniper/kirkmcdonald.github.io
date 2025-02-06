@@ -16,8 +16,8 @@
     } ],
     "beacon": {
         "allowed_effects": [ "consumption", "speed", "pollution" ],
-        "distribution_effectivity": 1.5,
-        "energy_usage": 480000,
+        "distribution_effectivity": 2.5,
+        "energy_usage": 80000,
         "profile": [ 1, 0.7071, 0.5773, 0.5, 0.4472, 0.4082, 0.3779, 0.3535, 0.3333, 0.3162, 0.3015, 0.2886, 0.2773, 0.2672, 0.2581, 0.25, 0.2425, 0.2357, 0.2294, 0.2236, 0.2182, 0.2132, 0.2085, 0.2041, 0.2, 0.1961, 0.1924, 0.1889, 0.1856, 0.1825, 0.1796, 0.1767, 0.174, 0.1714, 0.169, 0.1666, 0.1643, 0.1622, 0.1601, 0.1581, 0.1561, 0.1543, 0.1524, 0.1507, 0.149, 0.1474, 0.1458, 0.1443, 0.1428, 0.1414, 0.14, 0.1386, 0.1373, 0.136, 0.1348, 0.1336, 0.1324, 0.1313, 0.1301, 0.129, 0.128, 0.127, 0.1259, 0.125, 0.124, 0.123, 0.1221, 0.1212, 0.1203, 0.1195, 0.1186, 0.1178, 0.117, 0.1162, 0.1154, 0.1147, 0.1139, 0.1132, 0.1125, 0.1118, 0.1111, 0.1104, 0.1097, 0.1091, 0.1084, 0.1078, 0.1072, 0.1066, 0.1059, 0.1054, 0.1048, 0.1042, 0.1036, 0.1031, 0.1025, 0.102, 0.1015, 0.101, 0.1005, 0.1 ]
     },
     "belts": [ {
@@ -54,7 +54,7 @@
         "speed": 0.125
     } ],
     "boilers": [ {
-        "energy_consumption": 1800000.0,
+        "energy_consumption": 4500000.0,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 30
@@ -70,7 +70,7 @@
         },
         "target_temperature": 165
     }, {
-        "energy_consumption": 10000000,
+        "energy_consumption": 25000000,
         "energy_source": {
             "emissions_per_minute": [],
             "type": "heat"
@@ -86,7 +86,7 @@
     "crafting_machines": [ {
         "allowed_effects": [ "speed", "consumption", "pollution" ],
         "crafting_categories": [ "crafting", "basic-crafting", "advanced-crafting", "electronics", "pressing" ],
-        "crafting_speed": 0.5,
+        "crafting_speed": 1.25,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 4
@@ -105,7 +105,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy" ],
-        "crafting_speed": 0.75,
+        "crafting_speed": 1.875,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 3
@@ -124,7 +124,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy" ],
-        "crafting_speed": 1.25,
+        "crafting_speed": 3.125,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 2
@@ -143,7 +143,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "organic", "organic-or-hand-crafting", "organic-or-assembling", "organic-or-chemistry" ],
-        "crafting_speed": 2,
+        "crafting_speed": 5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": -1
@@ -163,7 +163,7 @@
     }, {
         "allowed_effects": [],
         "crafting_categories": [ "captive-spawner-process" ],
-        "crafting_speed": 1,
+        "crafting_speed": 2.5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": -1
@@ -188,7 +188,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "centrifuging" ],
-        "crafting_speed": 1,
+        "crafting_speed": 2.5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 4
@@ -207,7 +207,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "chemistry", "chemistry-or-cryogenics", "organic-or-chemistry" ],
-        "crafting_speed": 1,
+        "crafting_speed": 2.5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 4
@@ -226,7 +226,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "crushing" ],
-        "crafting_speed": 1,
+        "crafting_speed": 2.5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 1
@@ -250,7 +250,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "cryogenics", "chemistry-or-cryogenics", "cryogenics-or-assembling" ],
-        "crafting_speed": 2,
+        "crafting_speed": 5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 6
@@ -269,7 +269,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "electromagnetics", "electronics", "electronics-with-fluid", "electronics-or-assembling" ],
-        "crafting_speed": 2,
+        "crafting_speed": 5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 4
@@ -288,7 +288,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "metallurgy", "pressing", "crafting-with-fluid-or-metallurgy", "metallurgy-or-assembling" ],
-        "crafting_speed": 4,
+        "crafting_speed": 10,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 6
@@ -307,7 +307,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution" ],
         "crafting_categories": [ "oil-processing" ],
-        "crafting_speed": 1,
+        "crafting_speed": 2.5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 6
@@ -326,7 +326,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "productivity", "pollution", "quality" ],
         "crafting_categories": [ "smelting" ],
-        "crafting_speed": 2,
+        "crafting_speed": 5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 1
@@ -345,7 +345,7 @@
     }, {
         "allowed_effects": [ "consumption", "speed", "pollution", "quality" ],
         "crafting_categories": [ "recycling", "recycling-or-hand-crafting" ],
-        "crafting_speed": 0.5,
+        "crafting_speed": 1.25,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 2
@@ -364,7 +364,7 @@
     }, {
         "allowed_effects": [ "speed", "consumption", "pollution" ],
         "crafting_categories": [ "smelting" ],
-        "crafting_speed": 2,
+        "crafting_speed": 5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 4
@@ -388,7 +388,7 @@
     }, {
         "allowed_effects": [ "speed", "consumption", "pollution" ],
         "crafting_categories": [ "smelting" ],
-        "crafting_speed": 1,
+        "crafting_speed": 2.5,
         "energy_source": {
             "emissions_per_minute": {
                 "pollution": 2
@@ -5107,19 +5107,19 @@
     "modules": [ {
         "category": "efficiency",
         "effect": {
-            "consumption": -0.3
+            "consumption": -0.75
         },
         "item_key": "efficiency-module"
     }, {
         "category": "efficiency",
         "effect": {
-            "consumption": -0.4
+            "consumption": -1
         },
         "item_key": "efficiency-module-2"
     }, {
         "category": "efficiency",
         "effect": {
-            "consumption": -0.5
+            "consumption": -1.25
         },
         "item_key": "efficiency-module-3"
     }, {
@@ -5127,7 +5127,7 @@
         "effect": {
             "consumption": 0.4,
             "pollution": 0.05,
-            "productivity": 0.04,
+            "productivity": 0.1,
             "speed": -0.05
         },
         "item_key": "productivity-module"
@@ -5136,7 +5136,7 @@
         "effect": {
             "consumption": 0.6,
             "pollution": 0.07,
-            "productivity": 0.06,
+            "productivity": 0.15,
             "speed": -0.1
         },
         "item_key": "productivity-module-2"
@@ -5145,7 +5145,7 @@
         "effect": {
             "consumption": 0.8,
             "pollution": 0.1,
-            "productivity": 0.1,
+            "productivity": 0.25,
             "speed": -0.15
         },
         "item_key": "productivity-module-3"
@@ -5171,21 +5171,21 @@
         "category": "speed",
         "effect": {
             "consumption": 0.5,
-            "speed": 0.2
+            "speed": 0.5
         },
         "item_key": "speed-module"
     }, {
         "category": "speed",
         "effect": {
             "consumption": 0.6,
-            "speed": 0.3
+            "speed": 0.75
         },
         "item_key": "speed-module-2"
     }, {
         "category": "speed",
         "effect": {
             "consumption": 0.7,
-            "speed": 0.5
+            "speed": 1.25
         },
         "item_key": "speed-module-3"
     } ],
