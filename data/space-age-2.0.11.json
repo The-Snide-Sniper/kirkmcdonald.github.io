@@ -5152,13 +5152,13 @@
     }, {
         "category": "quality",
         "effect": {
-            "speed": -0.05
+            "productivity": 1
         },
         "item_key": "quality-module"
     }, {
         "category": "quality",
         "effect": {
-            "speed": -0.05
+            "productivity": 1
         },
         "item_key": "quality-module-2"
     }, {
@@ -5822,7 +5822,7 @@
         "icon_col": 14,
         "icon_row": 0,
         "ingredients": [ {
-            "amount": 3,
+            "amount": 10,
             "name": "solid-fuel"
         }, {
             "amount": 50,
@@ -18190,10 +18190,10 @@
         "icon_col": 19,
         "icon_row": 24,
         "ingredients": [ {
-            "amount": 50,
+            "amount": 15,
             "name": "ammonia"
         }, {
-            "amount": 20,
+            "amount": 6,
             "name": "crude-oil"
         } ],
         "key": "solid-fuel-from-ammonia",
