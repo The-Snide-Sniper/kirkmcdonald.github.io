@@ -18186,7 +18186,7 @@
     }, {
         "allow_productivity": true,
         "category": "chemistry-or-cryogenics",
-        "energy_required": 1,
+        "energy_required": 0.5,
         "icon_col": 19,
         "icon_row": 24,
         "ingredients": [ {
