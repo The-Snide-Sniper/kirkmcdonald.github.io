@@ -5158,7 +5158,7 @@
     }, {
         "category": "quality",
         "effect": {
-            "productivity": 1
+            "productivity": 1.5
         },
         "item_key": "quality-module-2"
     }, {
